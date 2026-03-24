@@ -8,6 +8,10 @@
 ![dependencies: 0](https://img.shields.io/badge/dependencies-0-brightgreen)
 ![1 + 1: 2](https://img.shields.io/badge/1%20%2B%201-2-yellow)
 
+<p >
+  <img src="assets/just-two.png" alt="just-two" width="400">
+</p>
+
 > The most over-engineered way to calculate 1 + 1.
 
 ## Why?
