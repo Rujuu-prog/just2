@@ -1,4 +1,4 @@
-# just-two
+# just2
 
 [日本語](README.ja.md)
 
@@ -9,7 +9,7 @@
 ![1 + 1: 2](https://img.shields.io/badge/1%20%2B%201-2-yellow)
 
 <p >
-  <img src="assets/just-two.png" alt="just-two" width="400">
+  <img src="assets/just2.png" alt="just2" width="400">
 </p>
 
 > The most over-engineered way to calculate 1 + 1.
@@ -18,14 +18,14 @@
 
 Developers have been computing `1 + 1` by hand for decades — with no logging, no audit trail, and absolutely no enterprise support. This is unacceptable.
 
-`just-two` solves a problem nobody asked for, with an infrastructure nobody needs.
+`just2` solves a problem nobody asked for, with an infrastructure nobody needs.
 
 Because `1 + 1` deserves better.
 
 ## Quick Start
 
 ```bash
-npx just-two
+npx just2
 ```
 
 That's it. You don't need to understand it. You just need to trust it.
@@ -33,12 +33,12 @@ That's it. You don't need to understand it. You just need to trust it.
 ## Demo
 
 ```
-[just-two] Booting addition engine v2.0...
-[just-two] Seeding entropy...
-[just-two] Loading constants: π, e, φ, 2 (cached)
-[just-two] Selecting algorithm: naive_addition (fallbacks: quantum, enterprise)
-[just-two] Warming up CPU... done (0.42s)
-[just-two] Running computation...
+[just2] Booting addition engine v2.0...
+[just2] Seeding entropy...
+[just2] Loading constants: π, e, φ, 2 (cached)
+[just2] Selecting algorithm: naive_addition (fallbacks: quantum, enterprise)
+[just2] Warming up CPU... done (0.42s)
+[just2] Running computation...
 
 ┌─ Computation Trace ────────────────────
 │ input.a = 1
@@ -62,7 +62,7 @@ That's it. You don't need to understand it. You just need to trust it.
 | `--silent` | Silent | Just prints `2`. For cowards |
 
 ```bash
-npx just-two --quantum
+npx just2 --quantum
 ```
 
 ```
@@ -86,7 +86,7 @@ Collapsing wavefunction...
 For those who need `2` programmatically:
 
 ```js
-import { justTwo, add } from "just-two";
+import { justTwo, add } from "just2";
 
 justTwo(); // => 2 (the answer, always)
 add(1, 1); // => 2 (in case you didn't believe the first one)
@@ -108,8 +108,8 @@ Computes the sum of two numbers. Technically supports inputs other than `1` and 
 | Calculator | ~1s | Yes | No | No |
 | Python | ~0.3s | Yes | No | No |
 | Excel | ~3s | Depends | Debatable | No |
-| **just-two** | **~1s** | **Always** | **Yes** | **Yes** |
-| **just-two --enterprise** | **~3s** | **Eventually** | **Absolutely** | **Yes** |
+| **just2** | **~1s** | **Always** | **Yes** | **Yes** |
+| **just2 --enterprise** | **~3s** | **Eventually** | **Absolutely** | **Yes** |
 
 ## FAQ
 

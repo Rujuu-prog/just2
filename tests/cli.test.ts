@@ -14,7 +14,7 @@ async function capture(options: Parameters<typeof runCli>[0]): Promise<string> {
 describe("default mode", () => {
   it("contains ASCII art", async () => {
     const output = await capture({});
-    expect(output).toContain("just-two");
+    expect(output).toContain("just2");
   });
 
   it("contains ✨ Result with ASCII art 2", async () => {

@@ -1,4 +1,4 @@
-# just-two
+# just2
 
 [English](README.md)
 
@@ -9,7 +9,7 @@
 ![1 + 1: 2](https://img.shields.io/badge/1%20%2B%201-2-yellow)
 
 <p>
-  <img src="assets/just-two.png" alt="just-two" width="400">
+  <img src="assets/just2.png" alt="just2" width="400">
 </p>
 
 > 1 + 1 を計算する、史上最も過剰に設計されたCLIツール。
@@ -18,14 +18,14 @@
 
 開発者たちは何十年もの間、`1 + 1` を手動で計算してきました。ログもなく、監査証跡もなく、エンタープライズサポートもなく。これは許されることではありません。
 
-`just-two` は、誰も求めていない問題を、誰も必要としていないインフラで解決します。
+`just2` は、誰も求めていない問題を、誰も必要としていないインフラで解決します。
 
 なぜなら、`1 + 1` はもっと丁寧に扱われるべきだからです。
 
 ## クイックスタート
 
 ```bash
-npx just-two
+npx just2
 ```
 
 理解する必要はありません。ただ信じてください。
@@ -33,12 +33,12 @@ npx just-two
 ## デモ
 
 ```
-[just-two] Booting addition engine v2.0...
-[just-two] Seeding entropy...
-[just-two] Loading constants: π, e, φ, 2 (cached)
-[just-two] Selecting algorithm: naive_addition (fallbacks: quantum, enterprise)
-[just-two] Warming up CPU... done (0.42s)
-[just-two] Running computation...
+[just2] Booting addition engine v2.0...
+[just2] Seeding entropy...
+[just2] Loading constants: π, e, φ, 2 (cached)
+[just2] Selecting algorithm: naive_addition (fallbacks: quantum, enterprise)
+[just2] Warming up CPU... done (0.42s)
+[just2] Running computation...
 
 ┌─ Computation Trace ────────────────────
 │ input.a = 1
@@ -62,7 +62,7 @@ npx just-two
 | `--silent` | サイレント | `2` とだけ出力。ミニマリスト向け               |
 
 ```bash
-npx just-two --enterprise
+npx just2 --enterprise
 ```
 
 ```
@@ -85,7 +85,7 @@ Retrying... (3/3)
 プログラムから `2` が必要な方へ：
 
 ```js
-import { justTwo, add } from "just-two";
+import { justTwo, add } from "just2";
 
 justTwo(); // => 2（答え。常に。）
 add(1, 1); // => 2（1つ目を信じられなかった方向け）
@@ -107,8 +107,8 @@ add(1, 1); // => 2（1つ目を信じられなかった方向け）
 | 電卓 | ~1秒 | はい | いいえ | いいえ |
 | Python | ~0.3秒 | はい | いいえ | いいえ |
 | Excel | ~3秒 | 場合による | 議論の余地あり | いいえ |
-| **just-two** | **~1秒** | **常に** | **はい** | **はい** |
-| **just-two --enterprise** | **~3秒** | **最終的には** | **もちろん** | **はい** |
+| **just2** | **~1秒** | **常に** | **はい** | **はい** |
+| **just2 --enterprise** | **~3秒** | **最終的には** | **もちろん** | **はい** |
 
 ## FAQ
 

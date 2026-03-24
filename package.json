@@ -1,5 +1,5 @@
 {
-  "name": "just-two",
+  "name": "just2",
   "version": "1.0.0",
   "description": "The most over-engineered way to calculate 1 + 1.",
   "type": "module",
@@ -11,7 +11,7 @@
     }
   },
   "bin": {
-    "just-two": "./dist/bin/just-two.js"
+    "just2": "./dist/bin/just2.js"
   },
   "files": [
     "dist"
